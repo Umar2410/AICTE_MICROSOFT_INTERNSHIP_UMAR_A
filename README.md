@@ -1,59 +1,165 @@
-# AI Image Authenticity Detector
+# 🔥 AI Image Detection System
 
-Python · Computer Vision · Machine Learning · AICTE Internship Project
+**Python · PyTorch · Computer Vision · AICTE**
 
----
 
-## 📌 Project Description
-This project implements an AI image detection system that determines whether an uploaded image is real or AI-generated. The system analyzes image patterns using frequency domain analysis and pixel-level feature extraction to make predictions.
 
-The system provides instant classification along with visual graphs explaining the decision process. It is designed as a lightweight real-time detection system that runs without heavy model training.
+## 📋 Project Description
+This project implements an AI-generated image detection system using a hybrid deep learning and frequency analysis approach.  
+The system analyzes uploaded images and determines whether they are real photographs or AI-generated content.
 
----
+The model combines pixel-level texture analysis and semantic understanding to improve reliability. Built using PyTorch and pretrained transformer models, it performs real-time inference and provides confidence scores along with visual evaluation graphs.
+
+
 
 ## 🎯 Objectives
-- Detect AI-generated images automatically
-- Analyze pixel patterns and frequency signals
-- Provide real-time classification results
-- Generate graphical outputs for explanation
-- Demonstrate practical computer vision concepts
+- Build an intelligent system to identify synthetic images  
+- Combine signal processing and deep learning detection methods  
+- Provide real-time classification with confidence  
+- Generate evaluation graphs for analysis  
+- Demonstrate practical computer vision application  
 
----
 
 ## ✨ Features
-- Real-time prediction (<1 second)
-- Image upload interface
-- Frequency analysis using FFT
-- Texture & edge detection
-- Confidence comparison scoring
-- Visualization graphs
-- Lightweight model (No training required)
-- Internship-ready project
+- Hybrid Detection (FFT + CLIP)
+- Face-Aware Analysis using MTCNN
+- Real-Time Prediction (<1 second)
+- Confidence Score Output
+- Dataset Evaluation Mode
+- Visualization Graphs & Charts
+- No Model Training Required (Pretrained AI)
+- Ready for Demonstration
 
----
+
 
 ## 🛠 Technologies Used
 
 | Technology | Purpose |
-|--------|---------|
-| Python | Core programming |
-| NumPy | Numerical analysis |
-| Matplotlib | Graph visualization |
-| Pillow | Image processing |
-| FFT | Frequency analysis |
+|-----------|--------|
+| Python 3.10 | Programming |
+| PyTorch | Deep Learning |
+| Transformers (CLIP) | Semantic Analysis |
+| Facenet-Pytorch | Face Detection |
+| NumPy | Frequency Analysis |
+| Matplotlib | Visualization |
+| Pillow | Image Processing |
 
----
 
-## 📊 Dataset
-- Input Type: Uploaded image
-- Classes: Real / AI Generated
-- Format: RGB Images
-- Evaluation: Feature score comparison
 
----
+## 📊 Dataset Information
+- Source: Mixed real and AI-generated images  
+- Classes: Real, AI Generated  
+- Format: RGB images  
+- Evaluation: Manually labeled test set  
 
-## ⚙️ Installation & Setup
 
-Install dependencies:
-```bash
-pip install numpy matplotlib pillow
+
+## 🚀 Installation
+
+``bash
+pip install torch torchvision transformers facenet-pytorch pillow matplotlib numpy pandas
+
+
+
+## ▶ Usage
+- Single Image Prediction
+
+- Upload image
+
+- System analyzes image
+
+- Displays prediction + confidence
+
+  
+
+## 📈 Model Performance
+
+- Real-time prediction <1 second
+
+- Hybrid detection improves accuracy
+
+- Works on faces and general scenes
+
+  
+
+## 📊 Visualization Output
+
+ The system generates:
+
+- Prediction Distribution Graph
+
+- Confidence Histogram
+
+- Real vs AI Pie Chart
+
+- Detector Agreement Scatter Plot
+
+- Prediction Image Display
+
+
+## 🔬 Detection Method
+- Frequency Analysis (FFT)
+
+Detects unnatural pixel patterns often found in AI images.
+
+- CLIP Transformer
+
+Understands image realism using vision-language embeddings.
+
+
+## 📚 Learning Outcomes
+
+This project demonstrates:
+
+- Computer Vision fundamentals
+
+- Transformer inference
+
+- Frequency domain analysis
+
+- Ensemble decision logic
+
+- Visualization techniques
+
+- Real-world AI deployment
+
+
+## 🌍 Applications
+
+- Fake news detection
+
+- Digital forensics
+
+- Social media verification
+
+- Evidence validation
+
+- Deepfake detection
+
+## 📦Requirements
+- torch
+- torchvision
+- transformers
+- facenet-pytorch
+- pillow
+- matplotlib
+- numpy
+- pandas
+
+
+## **🎓 Academic Information**
+
+- Project Type: Machine Learning
+- Domain: Computer Vision
+- Program: AICTE MS Elevate Program
+- Difficulty Level: Intermediate
+- Estimated Time: 4-6 hours
+
+## **📊 Project Status**
+
+  ✅ Complete – Ready for submission
+
+**Made with ❤️ for AICTE MS ELEVATE Program**
+
+
+ 
